@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --bg:  url(./assets/bg-mobile\ \(1\).jpg) no-repeat top center/cover;
+    --color: black;
+    --colorbg: white;
+    --border: black;
+
+
+}
+
+.light{
+    --bg: url(assets/bg-mobile-light.jpg) no-repeat top center/cover;
+    --color: white;
+    --colorbg: rgb(97, 91, 91);
+    --border: white;
+
+
+
+
+}
+
+body{
+    font-family: poppins;
+
+    background: var(--bg);
+
+}
+
+#form{
+    max-width: 500px;
+    min-width: 210px;
+    
+    padding: 16px 14px 20px;
+    margin:60px auto 0;
+
+    background-color: var(--colorbg);
+    border-radius: 9px;
+
+    color: var(--color);
+}
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 16px;
+    margin-left: 12px;
+
+}
+
+input{
+    height: 30px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-left: 10px;
+
+}
+
+#send{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: white;
+    transition: background 0.5s;
+
+    cursor: pointer;
+
+}
+
+#send:hover{
+    background: rgb(191, 185, 185);
+}
+
+#buttono{
+    text-align: center;
+}
+
+#theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    padding: 10px;
+
+    border: 2px solid black;
+    border-radius: 50%;
+
+    background: white;
+    transition: background 0.5s;
+
+    cursor: pointer;
+
+}
+
+#theme:hover{
+    background: rgb(191, 185, 185);
+}
